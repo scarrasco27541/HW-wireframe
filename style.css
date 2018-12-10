@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+      body
+      {
+          font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
+          color: #EEE;
+          background-color:#777;
+          width: '960px';
+          font-size: '18px';
+          line-height: 32px;
+          text-align: center;
+          box-sizing: border-box;
+       }
+       a {
+              text-decoration: none;
+       		
+                
+           
+            
+        
+        
+      }	
+          #header
+              {
+                  padding: 20px;
+                  margin: 5px 50px 5px 50px;
+                  background-color: #66ccff;	
+                  color: white;
+                  display: block;
+              }
+          #nav
+              
+              {	
+                  padding: 20px;
+                  margin: 5px 50px 10px 50px;
+                  background-color: #fc3c00;	
+                  color: white;
+                  display: block;
+              }
+          
+          #content
+              {	
+                 
+				 padding: 0px;
+                  margin: 0px 50px 0px 50px;
+                  background-color: #fc3c00;	
+                  color: white;
+                  display: block;
+                  height: 600px;
+                  overflow: auto;
+                  position: relative;
+                  
+              }
+          
+          #aside 
+              {
+                  clear: right;
+				  padding: 100px;
+                  margin: 5px 10px 50px 0px;
+                  background-color: #0035fc;
+                  color: white;
+                  float: right;
+                  width: 49%;
+                  height; 550px;
+                  display: block;
+                  
+              }
+              
+              
+  
+          
+          #section 
+              {
+                  padding: 50px;
+                  margin: 5px 0px 5px 10px;
+                  background-color: #0035fc;
+                  color: white;
+                  float: left;
+                  width: 49%;
+                  height: 590px;
+                  display; block;
+                  overflow: hidden;				
+              }
+              
+          #article
+              {
+                  margin: 5px 0px 10px 10px;
+                  color: #00fc24;
+                  background-color: #9b00fc;
+					overflow: hidden;
+              }
+          
+          #headers 
+              {
+                  margin: 5px 10px 10px 10px;
+                  color: red;
+                  background-color: #ebebeb;
+              }
+          #paragraph	
+          {
+                  margin: 20px 10px 10px 10px;
+                  color: red;
+                  background-color: #ebebeb;
+              
+          }
+          #footer
+              {		
+                  clear: both;
+                   padding: 20px;
+                  margin: 5px 50px 10px 50px;
+                  background-color: #66ccff;	
+                  color: white;
+                  display: block;
+              }
+              }
+              
+              
+          #clearfix:: after 
+                      {
+                          content: "";
+                          display: block;
+                          clear: both;
+                      }
+              
+          
+          
